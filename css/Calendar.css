@@ -1,0 +1,43 @@
+.cl1 {
+     border-collapse: collapse;
+     text-align: center;
+     margin: 0 0 0 25px;
+     width: 300px;
+     }
+
+.cl1 td {
+     border: solid 1px #000;
+     height: 25px;
+     }
+
+.cl2 td {
+     font-weight: bold;
+     font-size: 18px;
+     border: none;
+     }
+
+.cl3 {
+     background: #fee;
+     }
+
+.cl3, .cl3w {
+     color: #f00;
+     }
+
+.cl4 {
+     background: #eef;
+     }
+
+.cl4, .cl4w {
+     color: #00f;
+     }
+
+.cl5 {
+     font-weight: bold;
+     background: #eee;
+     }
+
+.cl6 {
+     font-weight: bold;
+     background: #ff2;
+     }
