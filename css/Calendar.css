@@ -1,43 +1,44 @@
-.cl1 {
+.tablemain {
      border-collapse: collapse;
      text-align: center;
      margin: 0 0 0 25px;
      width: 300px;
+     font-family: "ÉÅÉCÉäÉI", sans-serif;
      }
 
-.cl1 td {
+.tablemain td {
      border: solid 1px #000;
      height: 25px;
      }
 
-.cl2 td {
+.titles td {
      font-weight: bold;
      font-size: 18px;
      border: none;
      }
 
-.cl3 {
+.calSun {
      background: #fee;
      }
 
-.cl3, .cl3w {
+.calSun, .calSunTit {
      color: #f00;
      }
 
-.cl4 {
+.calSat {
      background: #eef;
      }
 
-.cl4, .cl4w {
+.calSat, .calSatTit {
      color: #00f;
      }
 
-.cl5 {
+.titleLine {
      font-weight: bold;
      background: #eee;
      }
 
-.cl6 {
+.calToday {
      font-weight: bold;
      background: #ff2;
      }
