@@ -1,3 +1,5 @@
+$(document).ready(function() {
+
 $('body').append("<table class='tablemain'></table>");
 
 $('table').append("<tr class='titles'><td colspan='7'>" + year + "”N" + (month + 1) + "ŒŽ</td></tr>");
@@ -14,7 +16,7 @@ for(i=0; i<7; i++) {
 }
 
 for(i=0; i<cldLines; i++) {
-    $('table').append("<tr></tr>");
+    $('table').append("<tr id='trmain'></tr>");
     for(j=0; j<7; j++) {
         newDate = cldTable[j + (i * 7)];
         if(newDate == date) {
@@ -28,3 +30,11 @@ for(i=0; i<cldLines; i++) {
         }
     }
 }
+
+  $('#delete').click(function(){
+    $('table').empty();
+  });
+
+});
+
+
